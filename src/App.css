@@ -1,0 +1,55 @@
+.App {
+  background: linear-gradient(to right,#2ecba9 0,#358fd0 100%);
+    min-height: 100vh;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.App-link {
+    color: #61dafb;
+}
+.search-cont {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 0 16px;
+    font-size: 17px;
+    color: lightslategrey;
+}
+.icon-cont {
+    margin-top: 20px;
+}
+.icon-cont ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon-cont ul li {
+    padding: 10px;
+}
+.icon-cont ul li .icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 4px;
+    width: 145px;
+    height: 60px;
+    cursor: pointer;
+}
+.icon-cont ul li .icon-item label {
+    font-size: 16px;
+    margin-top: 10px;
+}
